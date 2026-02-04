@@ -82,8 +82,8 @@ NEWS_API_KEY=your_news_api_key
 ```
 
 **Getting API Keys:**
-- **Weather API**: Sign up at [OpenWeatherMap](https://openweathermap.org/api)
-- **News API**: Sign up at [NewsAPI](https://newsapi.org/)
+- **Weather API**: Sign up at [WeatherApi](https://www.weatherapi.com/my/)
+- **News API**: Sign up at [NewsAPI](https://newsdata.io/)
 
 ### 4. Verify Installation
 
