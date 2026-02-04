@@ -7,9 +7,11 @@ export async function handleStringMenu() {
       type: "rawlist",
       name: "action",
       message: "Choose string action:",
-      choices: ["upper", "lower", "word-count", "capitalize", "palindrome"],
+      choices: ["upper", "lower", "word-count", "capitalize", "palindrome","Back"],
     },
   ]);
+
+  if (action === "Back") return;
 
   const { text } = await inquirer.prompt([
     {

@@ -1,5 +1,6 @@
 import inquirer from "inquirer";
 import { handleStringMenu } from "./string.menu";
+import { showApiMenu } from "./api.menu";
 import { compressFile, decompressFile } from "../services/file.service";
 
 export async function showMainMenu() {
@@ -49,6 +50,10 @@ export async function showMainMenu() {
         }
         break;
       }
+
+      case "api":
+        await showApiMenu();
+        break;
 
       case "exit":
         console.log("👋 Goodbye!");
